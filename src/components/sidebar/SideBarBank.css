@@ -1,0 +1,143 @@
+.sidebar-bank {
+    width: 100%;
+    height: 100vh;
+    direction: ltr;
+    overflow-y: auto;
+}
+
+.sidebar-bank .sidebar-bank-logo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 337px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: brown;
+    font-family: shabnam;
+    font-size: 16px;
+}
+
+.sidebar-bank .sidebar-bank-logo {
+    position: absolute;
+    right: 10px;
+}
+
+.sidebar-bank .sidebar-bank-melli-container {
+    display: flex;
+    align-items: center;
+    padding: 24px 16px;
+    width: 337px;
+    height: 102px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    box-shadow: rgb(9 30 66 / 8%) 0px 0px 8px;
+    background-color: aquamarine;
+}
+
+.sidebar-bank .sidebar-bank-wallet-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+}
+
+.sidebar-bank .sidebar-bank-wallet-global {
+    width: 86.16px;
+    height: 24px;
+    line-height: 24px;
+    font-family: shabnam;
+    font-size: 16px;
+    margin: 0;
+    text-align: right;
+}
+
+.sidebar-bank .sidebar-bank-wallet {
+    color: rgb(122, 134, 154) !important;
+    margin-bottom: 6px !important;
+}
+
+.sidebar-bank .sidebar-bank-wallet-reload-container {
+    color: rgb(9, 30, 66) !important;
+}
+
+.sidebar-bank .sidebar-bank-wallet-reload {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.sidebar-bank .sidebar-bank-sub-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.sidebar-bank .sidebar-bank-tag-container {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+}
+
+.sidebar-bank .sidebar-bank-tag {
+    font-family: shabnam;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.sidebar-bank .sidebar-bank-menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    padding: 8px 0 16px;
+    gap: 15px 20px;
+    column-gap: 20px;
+    border-bottom: 1px solid rgb(235, 236, 240);
+}
+
+.sidebar-bank .sidebar-bank-menu-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.sidebar-bank .sidebar-bank-menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.sidebar-bank .sidebar-bank-menu-item-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 8px 8px;
+    background-color: rgb(250, 251, 252);
+    border: 1px solid rgb(235, 236, 240);
+    border-radius: 12px;
+}
+
+.sidebar-bank .sidebar-bank-menu-item-tag {
+    font-family: shabnam;
+    font-size: 12px;
+    line-height: 21px;
+    margin: 0;
+}
+
+.sidebar-bank .sidebar-bank-menu-container-last {
+    border-bottom: none;
+}
+

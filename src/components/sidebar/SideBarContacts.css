@@ -1,0 +1,77 @@
+.sidebar-contacts {
+    width: 100%;
+    height: 500px;
+    background-color: green;
+}
+
+.sidebar-connecting {
+    display: flex;
+    align-items: center;
+    width: 337px;
+    height: 54px;
+    background-color: #ebecf0;
+    border-radius: 14px;
+    overflow: hidden;
+    margin: 12px 12px -10px;
+    max-height: 54px;
+    opacity: 1;
+    padding: 15px;
+}
+
+.sidebar-connecting .sidebar-connecting-icon {
+    width: 24px;
+    height: 24px;
+    margin: 12px !important;
+}
+
+.sidebar-connecting .sidebar-connecting-tag {
+    margin: 0;
+    color: rgb(9, 30, 66);
+    line-height: 24px;
+    font-family: shabnam;
+    font-size: 16px;
+}
+
+.sidebar-contacts .sidebar-contacts-menu-container {
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+    margin-top: 12px;
+    font-family: shabnam;
+    font-size: 14px;
+}
+
+.sidebar-contacts .sidebar-contacts-menu-container ul {
+    padding: 12px 0;
+    width: 100%;
+    height: 100%;
+    color: #238ff3;
+}
+
+.sidebar-contacts .sidebar-contacts-menu-container ul li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 47px;
+    list-style: none;
+    padding: 0 16px 0 0;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar-contacts .sidebar-contacts-menu-container ul li p {
+    width: 321px;
+    border-bottom: 1px solid gray;
+    padding: 12px 0 12px 12px;
+}
+
+.sidebar-contacts .sidebar-contacts-menu-icon {
+    width: 18px;
+    height: 18px;
+    margin-left: 6px;
+}
+
+.sidebar-contacts .sidebar-contacts-menu-container hr {
+    width: 80%;
+}

@@ -1,0 +1,69 @@
+.chat-profile-container {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 6px 12px;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.chat-profile-container .chat-profile {
+  display: flex;
+  width: 200px;
+  height: 44px;
+}
+
+.chat-profile .chat-profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.chat-profile-container .chat-profile-name-container {
+  margin-right: 10px;
+}
+
+.chat-profile-container .chat-profile-name {
+  max-width: 100%;
+  height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: shabnam;
+  font-size: 14px;
+}
+
+.chat-profile-container .chat-profile-connecting {
+  width: 90px;
+  height: 16px;
+  font-family: shabnam;
+  font-size: 12px;
+}
+
+.chat-profile-container .chat-profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-family: Shabnam;
+  font-size: 16px;
+  color: white;
+  margin-right: 10px;
+  /* margin-top: auto; */
+  background-color: orange;
+}
+
+.chat-profile-container .chat-profile-options-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+  height: 44px;
+  margin-left: 20px;
+}

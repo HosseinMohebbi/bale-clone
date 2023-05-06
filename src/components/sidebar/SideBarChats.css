@@ -1,0 +1,191 @@
+.sidebar-chats{
+    width: 100%;
+    height: auto;
+    background-color: pink;
+}
+
+.sidebar-connecting {
+    display: flex;
+    align-items: center;
+    width: 337px;
+    height: 54px;
+    background-color: #ebecf0;
+    border-radius: 14px;
+    overflow: hidden;
+    margin: 12px 12px -10px;
+    max-height: 54px;
+    opacity: 1;
+    padding: 15px;
+}
+
+.sidebar-connecting .sidebar-connecting-icon {
+    width: 24px;
+    height: 24px;
+    margin: 12px !important;
+}
+
+.sidebar-connecting .sidebar-connecting-tag {
+    margin: 0;
+    color: rgb(9, 30, 66);
+    line-height: 24px;
+    font-family: shabnam;
+    font-size: 16px;
+}
+
+.sidebar-chats .sidebar-chats-tabs-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    /* height: 44px; */
+    background-color: gold;
+    position: relative;
+    margin-top: 20px;
+}
+
+/* .sidebar-chats .sidebar-chats-arrow-container {
+    display: block;
+}
+
+.sidebar-chats .sidebar-chats-left-arrow,
+.sidebar-chats-right-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(244, 245, 247);
+    padding: 4px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 0 6px 6px 0;
+}
+
+.sidebar-chats .sidebar-chats-right-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(244, 245, 247);
+    padding: 4px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 6px 0 0 6px;
+}
+
+.sidebar-chats .sidebar-chats-left-arrow-hide {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(244, 245, 247);
+    padding: 4px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 0 6px 6px 0;
+}
+
+.sidebar-chats .sidebar-chats-right-arrow-hide {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(244, 245, 247);
+    padding: 4px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 6Px 0 0 6px;
+} */
+
+.sidebar-chats .sidebar-chats-tabs {
+    display: grid;
+    grid-auto-flow: column;
+    position: relative;
+    direction: rtl;
+    background-color: transparent;
+    justify-content: center;
+    gap: 35px;
+    line-height: 44px;
+}
+
+.sidebar-chats .sidebar-chats-tab {
+    max-width: 200px;
+    height: 44px;
+    padding-bottom: 4px;
+    position: relative;
+    font-family: shabnam;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* .sidebar-chats-contacts {
+    box-sizing: border-box;
+    padding-top: 0px;
+}
+
+.sidebar-chats .sidebar-chats-contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    font-family: shabnam;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.sidebar-chats .sidebar-chats-contact-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-right: 16px;
+}
+
+.sidebar-chats .sidebar-chats-contact-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin-right: 12px;
+    margin-left: 16px;
+    border-bottom: 1.5px solid #ebecf0;
+}
+
+.sidebar-chats .sidebar-chats-contact-firstRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.sidebar-chats .sidebar-chats-contact-secondRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sidebar-chats .sidebar-chats-contact-name {
+    font-size: 16px;
+}
+
+.sidebar-chats .sidebar-chats-contact-date {
+    font-size: 12px;
+    color: #7a869a;
+}
+
+.sidebar-chats .sidebar-chats-contact-message {
+    font-size: 14px;
+    color: #7a869a;
+}
+
+.sidebar-chats .sidebar-chats-contact-seen {
+    color: #7a869a;
+} */

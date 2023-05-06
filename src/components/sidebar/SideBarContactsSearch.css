@@ -1,0 +1,38 @@
+.sidebar-contacts .sidebar-contacts-search-container {
+    width: 100%;
+    height: 68px;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.sidebar-contacts .sidebar-contacts-search-container .sidebar-contacts-search-wrapper {
+    display: flex;
+    align-items: center;
+    width: 337px;
+    height: 36px;
+    padding: 9px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.sidebar-contacts .sidebar-contacts-search-container .sidebar-contacts-search-icon {
+    font-size: 15px;
+    margin: 0 0 0 8px;
+    background-color: white;
+    color: rgb(122, 134, 154);
+}
+
+.sidebar-contacts .sidebar-contacts-search-container .sidebar-contacts-search {
+    background-color: white;   
+    border: none;
+    padding: 1px 2px;
+    width: 278.47px;
+    height: 21px;
+    font-family: shabnam;
+    font-size: 14px;
+}

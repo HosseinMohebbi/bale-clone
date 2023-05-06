@@ -1,0 +1,23 @@
+/* @font-face {
+  font-family: shabnam;
+  src: url(Shabnam.ttf);
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  background-color: rgb(94, 108, 132);
+}

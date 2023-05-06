@@ -1,0 +1,243 @@
+.modal-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw;
+    height: 100vh; */
+    /* position: fixed; */
+    background-color: rgb(200, 200, 200);
+}
+
+.modal-container {
+  width: 570px !important;
+  height: 645px !important;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  width: 570px;
+  height: 56px;
+  background-color: #ebecf0;
+}
+
+/* .modal-close > p {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  padding: 20px 20px 0 0;
+  cursor: pointer;
+} */
+
+.modal-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  /* padding: 6px; */
+  margin: 20px 20px 0 0;
+  cursor: pointer;
+}
+
+.modal-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  /* padding: 6px; */
+  margin: 20px 0 0 20px;
+  cursor: pointer;
+}
+
+.modal-options:hover {
+  background-color: #DDDDDD;
+  border-radius: 50%;
+}
+
+.modal-profile-container {
+  display: flex;
+  align-items: center;
+  width: 570px;
+  height: 81px;
+  position: relative;
+  background-color: #ebecf0;
+}
+
+.modal-profile {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: orange;
+  margin: 0 20px 0 0;
+}
+
+/* .modal-profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  } */
+
+.modal-userGroupInfo {
+  margin-right: 15px;
+}
+
+.modal-userGroupInfo .modal-user-name {
+  margin-bottom: 5px;
+  font: 14px shabnam;
+}
+
+.modal-userGroupInfo .modal-user-lastseen {
+  /* margin: 0 10px 10px 0; */
+  font: 13px shabnam;
+}
+
+.modal-profile-container .modal-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  transform: translateY(50%);
+  padding: 15px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.modal-userInfo-container {
+    width: 100%;
+    height: 155px;
+    padding: 20px 40px 0 0;
+    border-bottom: 1px solid rgb(235, 236, 240);
+}
+
+.modal-userId-tag {
+    font: 14px shabnnam;
+    color: rgb(94, 108, 132) !important;
+    line-height: 22px;
+}
+
+.modal-userId {
+    font: 16px shabnnam;
+    color: #091e42;
+}
+
+.modal-userInfo-wrapper {
+    margin-top: 20px;
+}
+
+.modal-userInfo-tag {
+    font: 14px shabnnam;
+    color: rgb(94, 108, 132) !important;
+    line-height: 22px;
+}
+
+.modal-userInfo {
+    font: 16px shabnnam;
+    color: #091e42;
+}
+
+.Modal-notifications-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 67px;
+    border-bottom: 1px solid rgb(235, 236, 240);
+}
+
+.Modal-notifications-tag {
+    font: 14px shabnam;
+    color: #091e42;
+    margin: 0 20px 0 0;
+}
+
+.Modal-notifications-check {
+    margin: 0 0 0 20px;
+}
+
+.notification-toggle-lable {
+    display: block;
+    width: 41px;
+    height: 24px;
+    position: relative;
+    background-color: #c1c7d0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.notification-toggle-lable::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background-color: #ffffff;
+    border-radius: 22px;
+    transition: 0.3s;
+}
+
+
+.notification-toggle-input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.notification-toggle-input:checked + .notification-toggle-lable {
+    background-color: #238ff3;
+}
+
+.notification-toggle-input:checked + .notification-toggle-lable::after {
+    left: 40px;
+    transform: translate(-100%);
+    background-color: #ffffff;
+}
+
+.notification-toggle-checked {
+    /* display: flex; */
+    position: absolute;
+    top: 4px;
+    z-index: 100;
+}
+
+.modal-files-wrapper {
+  width: 100%;
+}
+
+.modal-files-container {
+  display: grid;
+  grid-auto-flow: column;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.modal-file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 128px;
+  height: 44px;
+  font: 13px shabnam;
+  cursor: pointer;
+  /* margin: 0 10px 0 10px; */
+}
+
+/* .modal-files-line {
+
+} */

@@ -1,0 +1,45 @@
+.mesaage-contextMenu-container {
+    width: 200px;
+    height: auto;
+    background-color: white;
+    visibility: visible;
+    position: fixed;
+    z-index: 10;
+    transform-origin: right bottom;
+    /* right: 790px;
+    bottom: 80px; */
+    transform: scale(1);
+    opacity: 1;
+    transition: opacity 200ms cubic-bezier(0.2, 0, 0.2, 1) 0s, transform 200ms cubic-bezier(0.2, 0, 0.2, 1) 0s;
+    border-radius: 10px;
+}
+
+/* .mesaage-contextMenu-container {
+    
+} */
+
+.mesaage-contextMenu-ul {
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    box-shadow: 0 6px 12px 0 rgba(var(--dark-200-rgb),.2);
+    direction: rtl;
+    list-style: none;
+    margin: 0;
+    min-width: 198px;
+    overflow: hidden;
+    padding: 1.2rem 0;
+}
+
+.mesaage-contextMenu-li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 11px 16px;
+}
+
+.mesaage-contextMenu-li > p {
+    font: 14px shabnam;
+    margin: 0 0 0 6px;
+    color: #42526e;
+}

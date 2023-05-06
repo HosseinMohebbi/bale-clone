@@ -1,0 +1,3 @@
+// export const ReplyIcon = () => {
+// <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><defs><style>.a,.b{fill:none;}.b{stroke:#42526E;stroke-width:1.4px;}</style></defs><rect class="a" width="22" height="22"/><g transform="translate(2.292 2.292)"><g transform="translate(0 0)"><path class="b" d="M.122,5.9,6.653.092a.362.362,0,0,1,.6.271V2.9H8.345c4.917,0,9.071,3.49,9.071,7.619a8.272,8.272,0,0,1-4.549,6.852.355.355,0,0,1-.168.042h-.008a.374.374,0,0,1-.369-.363.362.362,0,0,1,.153-.3,5.328,5.328,0,0,0,1.313-2.969c0-2.726-3.136-4.354-6.168-4.354-.086,0-.172,0-.257-.005l-.106,0v2.547a.362.362,0,0,1-.6.271L.122,6.439a.362.362,0,0,1,0-.542Z" transform="translate(0 0)"/></g></g></svg>
+// }

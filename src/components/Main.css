@@ -1,0 +1,22 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 78px 361px 961px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 1400px;
+    height: 100vh;
+}
+
+.navigation {
+    background-color: aqua;
+}
+
+.contact {
+    background-color: blue;
+}
+
+.message {
+    background-color: red;
+}
+    
