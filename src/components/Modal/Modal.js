@@ -6,16 +6,6 @@ import { ModalOptions } from "./icons/ModalOptions";
 import { ModalToggleChecked } from "./icons/ModalToggelChecked";
 
 function Modal(props) {
-  //   const currentDialogId = useSelector((state) => {
-  //     return state.dialogs.currentDialogId;
-  //   });
-
-  //   const dialogs = useSelector((state) => {
-  //     return state.dialogs.dialogs;
-  //   });
-
-  //   const dialog = dialogs.find((dialog) => dialog.id === currentDialogId);
-
   return (
     <div className="modal-background">
       <div className="modal-container">
